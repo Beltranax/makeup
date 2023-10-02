@@ -3,14 +3,14 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import Image from 'next/image'
-import project1 from "../../public/images/projects/bridal1.jpg"
-import project2 from "../../public/images/projects/bridal2.jpg"
-import project3 from "../../public/images/projects/bridal3.jpg"
-import project4 from "../../public/images/projects/groom.jpg"
-import project5 from "../../public/images/projects/bridal5.jpg"
-import project6 from "../../public/images/projects/bridal4.jpg"
-import {motion} from "framer-motion"
+import Image from 'next/image';
+import project1 from "../../public/images/projects/bridal1.jpg";
+import project2 from "../../public/images/projects/bridal2.jpg";
+import project3 from "../../public/images/projects/bridal3.jpg";
+import project4 from "../../public/images/projects/groom.jpg";
+import project5 from "../../public/images/projects/bridal5.jpg";
+import project6 from "../../public/images/projects/bridal4.jpg";
+import {motion} from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
