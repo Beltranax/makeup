@@ -45,7 +45,7 @@ const FeaturedService = ({type, title, summary, img, link}) => {
     )
 }
 
-const services = () => {
+const projects= () => {
     return (
         <>
             <Head>
@@ -149,4 +149,4 @@ const services = () => {
     )
 }
 
-export default services
+export default projects
