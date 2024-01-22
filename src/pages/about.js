@@ -70,7 +70,7 @@ const about = () => {
                             </p>
 
                             <p className='my-4 font-medium'>
-                            - It is a privilege to be your makeup artist and will ensure you leave my chair with great satisfaction., 
+                            - It is a privilege to be your makeup artist and will ensure you leave my chair with great satisfaction. 
                             </p>
 
                             <p className='my-4 font-medium'>
