@@ -15,7 +15,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
-const FeaturedService = ({type, title, summary, img, link}) => {
+const FeaturedService = ({type, title, line1, line2, line3, line4, line5, line6, img, link}) => {
     return(
         <article className="w-full flex items-center justify-between relative rounded-br-2xl
         rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light
@@ -39,7 +39,12 @@ const FeaturedService = ({type, title, summary, img, link}) => {
                 <Link href={link} target="_blank" className="hover:underline underline-offset-2">
                 <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm">{title}</h2>
                 </Link>
-                <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
+                <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{line1}</p>
+                <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{line2}</p>
+                <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{line3}</p>
+                <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{line4}</p>
+                <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{line5}</p>
+                <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{line6}</p>
             </div>
         </article>
     )
@@ -63,7 +68,12 @@ const services= () => {
                             <FeaturedService 
                             title="Bride"
                             img={project1}
-                            summary= "~1.5 hour service &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ~Lip/Face Touch-Up kit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;~Variety of eyelashes to choose from &emsp;&emsp; ~Personalized schedule for all parties involved &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;~Touch up services upon completion of all other services"
+                            line1= "~1.5 hour service" 
+                            line2= "~Lip/Face Touch-Up kit" 
+                            line3="~Variety of eyelashes to choose from" 
+                            line4="~Personalized schedule for all parties involved" 
+                            line5="~Touch up services upon completion of all other services"
+                            line6=""
                             link="/"
                             github="/"
                             type="$280"
@@ -75,8 +85,12 @@ const services= () => {
                         <FeaturedService 
                             title="Bridal Trial"
                             img={project3}
-                            summary="~1 - 1.5 hour service &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Provide wedding consultation"
+                            line1="~1 - 1.5 hour service"
+                            line2="~Provide wedding consultation"
+                            line3= ""
+                            line4= ""
+                            line5= ""
+                            line6= ""
                             link="/"
                             github="/"
                             type="$120"
@@ -88,8 +102,12 @@ const services= () => {
                         <FeaturedService 
                             title="Bridesmaids / Mothers"
                             img={project2}
-                            summary="~1 hour service &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Eyelash options"
+                            line1="~1 hour service"
+                            line2="~Eyelash options"
+                            line3= ""
+                            line4= ""
+                            line5= ""
+                            line6= ""
                             link="/"
                             github="/"
                             type="$150"
@@ -101,8 +119,12 @@ const services= () => {
                         <FeaturedService 
                             title="Groom"
                             img={project4}
-                            summary="~0.5 hour service  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Concealer / Foundation"
+                            line1="~0.5 hour service"
+                            line2= "~Concealer / Foundation"
+                            line3= ""
+                            line4= ""
+                            line5= ""
+                            line6= ""
                             link="/"
                             github="/"
                             type="$50"
@@ -114,11 +136,12 @@ const services= () => {
                         <FeaturedService 
                             title="Special Event Makeup"
                             img={project6}
-                            summary="~1 hour service &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Birthday, Headshots, Engagement, Maternity , Quinceaneras etc. &emsp;&emsp;&emsp;&emsp;
-                            ~On-Site Travel &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Lip Touch-Up kit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Eyelash options"
+                            line1="~1 hour service"
+                            line2= "~Birthday, Headshots, Engagement, Maternity , Quinceaneras etc."
+                            line3= "~On-Site Travel"
+                            line4= "~Lip Touch-Up kit"
+                            line5= "~Eyelash options"
+                            line6= ""
                             link="/"
                             github="/"
                             type="$150"
@@ -130,12 +153,12 @@ const services= () => {
                         <FeaturedService 
                             title="Additional Info"
                             img={project5}
-                            summary="~Optional - Assistant fee -  $150 &emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Optional - On-Site Touch-Up Services - $100 per hour (Ideal for Brides wanting touch up before reception) &emsp;&emsp;
-                            ~Required - 4 person minimum for Friday and Saturday &emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Required - All parking fees to paid by client &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                            ~Required - Travel Fees based on location for all services &emsp;&emsp;&emsp;&emsp;
-                            ~Required - Non-Refundable Retainer and signed contract to secure date "
+                            line1="~Optional - Assistant fee -  $150"
+                            line2= "~Optional - On-Site Touch-Up Services - $100 per hour (Ideal for Brides wanting touch up before reception)"
+                            line3= "~Required - 4 person minimum for Friday and Saturday"
+                            line4= "~Required - All parking fees to paid by client"
+                            line5= "~Required - Travel Fees based on location for all services"
+                            line6= "~Required - Non-Refundable Retainer and signed contract to secure date "
                             link="/"
                             github="/"
                             type=""
